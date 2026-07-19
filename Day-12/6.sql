@@ -1,0 +1,3 @@
+SELECT *
+FROM students
+WHERE marks BETWEEN 60 AND 90;
