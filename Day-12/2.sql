@@ -1,0 +1,10 @@
+
+ALTER TABLE students
+ADD CONSTRAINT unique_email UNIQUE(email);
+ALTER TABLE students
+ALTER COLUMN name SET NOT NULL;
+
+ALTER TABLE students
+ADD CONSTRAINT check_marks
+CHECK (marks BETWEEN 0 AND 100);
+
