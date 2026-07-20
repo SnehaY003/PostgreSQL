@@ -1,0 +1,5 @@
+DB_NAME="intern_db"
+DB_USER="postgres"
+DB_PASSWORD="sneha"
+DB_HOST="localhost"
+DB_PORT="5432"
